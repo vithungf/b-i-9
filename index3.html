@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tỉ số cân nặng</title>
+</head>
+<body>
+
+<script>
+
+    let chieu_cao = prompt("chiều cao")
+    let can_nang = prompt("cân nặng")
+    let bmi = can_nang / (chieu_cao * chieu_cao)
+
+
+    if (bmi < 18.5)
+        alert("bạn nhẹ quá")
+    else if (bmi < 25.0)
+        alert("bình thường");
+    else if (bmi < 30.0)
+        alert("thừa cân");
+    else
+        alert("Obese");
+
+</script>
+</body>
+</html>

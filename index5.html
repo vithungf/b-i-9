@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body style="background-color:rebeccapurple">
+<h1 style="color: pink">Do you love me</h1>
+<button id="yes" onclick="igree()" style="color:deeppink">Yes</button>
+<button id="no" onmouseover="disgree()" style="position: absolute; left: 100px; top: 100px;color: deeppink">No</button>
+<script>
+  function igree() {
+    alert("<3 tớ cũng yêu cậu")
+  }
+  function disgree() {
+    document.getElementById("no").style.left = parseInt(document.getElementById("no").style.left) + 100 +'px'
+    document.getElementById("no").style.top = parseInt(document.getElementById("no").style.left) + 100+ 'px'
+  }
+</script>
+
+</body>
+</html>
+
+
